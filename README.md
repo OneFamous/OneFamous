@@ -17,13 +17,40 @@ I currently develop and maintain React Native applications for a fintech core pr
 
 ## Selected Work
 
-| Project | What it demonstrates |
-| --- | --- |
-| [CheckMate](https://github.com/OneFamous/CheckMate) | To-do application built with Expo and React Native. |
-| [OptiDiag](https://github.com/OneFamous/CapstoneProjectThesis) | Capstone project: a Flutter application that analyzes eye images to detect cataracts and uveitis through a Flask API on Google Cloud using Python and Keras models. Published on Google Play. |
-| [AIOP](https://github.com/OneFamous/mobileproject) | Flutter and Firebase application combining chat, note-taking, to-do lists and crypto market tracking. I served as project leader and developer in a five-person team. |
-| [WeatherApp](https://github.com/OneFamous/WeatherApp) | Kotlin weather application with hourly and daily conditions based on location. |
-| [StudentManagement](https://github.com/OneFamous/StudentManagement) | Student management system built with a RESTful API and the MVC pattern. |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/OneFamous/CheckMate">CheckMate</a></h3>
+      <p><strong>React Native · Expo · TypeScript</strong></p>
+      <p>To-do application built with Expo and React Native.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/OneFamous/CapstoneProjectThesis">OptiDiag</a></h3>
+      <p><strong>Flutter · Flask · Google Cloud</strong></p>
+      <p>Capstone project that analyzes eye images to detect cataracts and uveitis through a Flask API on Google Cloud using Python and Keras models. Published on Google Play.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/OneFamous/mobileproject">AIOP</a></h3>
+      <p><strong>Flutter · Firebase · Dart</strong></p>
+      <p>Application combining chat, note-taking, to-do lists and crypto market tracking. I served as project leader and developer in a five-person team.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/OneFamous/WeatherApp">WeatherApp</a></h3>
+      <p><strong>Kotlin · Android</strong></p>
+      <p>Weather application with hourly and daily conditions based on location.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/OneFamous/StudentManagement">StudentManagement</a></h3>
+      <p><strong>JavaScript · REST APIs · MVC</strong></p>
+      <p>Student management system built with a RESTful API and the MVC pattern.</p>
+    </td>
+    <td width="50%" valign="top"></td>
+  </tr>
+</table>
 
 ## Technologies
 
