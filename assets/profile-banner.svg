@@ -35,8 +35,9 @@
   <text x="998" y="110" fill="#ccfbf1" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle">Flutter</text>
   <rect x="1046" y="91" width="55" height="28" rx="14" fill="#1e3a8a" fill-opacity=".38" stroke="#93c5fd" stroke-opacity=".38"/>
   <text x="1074" y="110" fill="#dbeafe" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle">Kotlin</text>
-  <path d="M849 162l25-25 25 25M916 137l-25 25 25 25" fill="none" stroke="#5eead4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M954 137l-16 50" stroke="#38bdf8" stroke-width="7" stroke-linecap="round"/>
+  <path d="M890 137l-25 25 25 25" fill="none" stroke="#5eead4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M908 187l17-50" stroke="#38bdf8" stroke-width="7" stroke-linecap="round"/>
+  <path d="M943 137l25 25-25 25" fill="none" stroke="#5eead4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
   <rect x="1000" y="142" width="72" height="8" rx="4" fill="#38bdf8" opacity=".75"/>
   <rect x="1000" y="162" width="89" height="8" rx="4" fill="#cbd5e1" opacity=".25"/>
   <rect x="1000" y="182" width="47" height="8" rx="4" fill="#cbd5e1" opacity=".18"/>
