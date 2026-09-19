@@ -9,13 +9,34 @@
       <stop offset="0%" stop-color="#38bdf8"/>
       <stop offset="100%" stop-color="#5eead4"/>
     </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
   <rect width="1200" height="260" rx="18" fill="url(#bg)"/>
-  <circle cx="1040" cy="55" r="120" fill="#38bdf8" opacity=".08"/>
-  <circle cx="1125" cy="220" r="150" fill="#5eead4" opacity=".08"/>
-  <path d="M82 184h165" stroke="url(#accent)" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="1040" cy="55" r="120" fill="#38bdf8" opacity=".08">
+    <animate attributeName="r" values="112;128;112" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1125" cy="220" r="150" fill="#5eead4" opacity=".08">
+    <animate attributeName="r" values="142;158;142" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M82 184h210" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-dasharray="210" stroke-dashoffset="210">
+    <animate attributeName="stroke-dashoffset" values="210;0;0;210" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="315" cy="184" r="4" fill="#5eead4" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;1;1;0" dur="5s" repeatCount="indefinite"/>
+  </circle>
   <text x="82" y="104" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">Fatih Ateş</text>
   <text x="82" y="151" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="24">React Native Developer  •  Mobile Application Developer</text>
   <text x="82" y="218" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="18">Building practical cross-platform mobile experiences</text>
-  <text x="1040" y="150" fill="#5eead4" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" text-anchor="middle">&lt;/&gt;</text>
+  <g transform="translate(1040 150)">
+    <animateTransform attributeName="transform" type="translate" values="1040 150;1040 142;1040 150" dur="4s" repeatCount="indefinite"/>
+    <text x="0" y="0" fill="#5eead4" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" text-anchor="middle" filter="url(#glow)">&lt;/&gt;</text>
+  </g>
+  <g fill="#38bdf8">
+    <circle cx="915" cy="90" r="4"><animate attributeName="opacity" values=".15;1;.15" dur="2.2s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="950" cy="64" r="3"><animate attributeName="opacity" values=".15;1;.15" dur="2.2s" begin=".45s" repeatCount="indefinite"/></circle>
+    <circle cx="1160" cy="102" r="4"><animate attributeName="opacity" values=".15;1;.15" dur="2.2s" begin=".9s" repeatCount="indefinite"/></circle>
+  </g>
 </svg>
