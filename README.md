@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/OneFamous/OneFamous/main/assets/profile-banner.svg" alt="Fatih Ateş — React Native Developer" width="100%" />
+  <img src="https://raw.githubusercontent.com/OneFamous/OneFamous/ad54e8b1e51a714314e497887b2559a6f88e2e34/assets/profile-banner.svg" alt="Fatih Ateş — React Native Developer" width="100%" />
 </p>
 
 ## About
