@@ -1,42 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Fatih Ateş - React Native Developer">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="55%" stop-color="#1e3a5f"/>
-      <stop offset="100%" stop-color="#0f766e"/>
+      <stop offset="0%" stop-color="#090f20"/>
+      <stop offset="58%" stop-color="#142b58"/>
+      <stop offset="100%" stop-color="#0b6b66"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="100%" stop-color="#5eead4"/>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#5eead4" stop-opacity="0"/>
     </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#cbd5e1" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4"/>
     </filter>
   </defs>
   <rect width="1200" height="260" rx="18" fill="url(#bg)"/>
-  <circle cx="1040" cy="55" r="120" fill="#38bdf8" opacity=".08">
-    <animate attributeName="r" values="112;128;112" dur="5s" repeatCount="indefinite"/>
+  <rect width="1200" height="260" rx="18" fill="url(#grid)"/>
+  <circle cx="1030" cy="40" r="155" fill="#38bdf8" opacity=".055"/>
+  <circle cx="1170" cy="250" r="175" fill="#5eead4" opacity=".07"/>
+  <rect x="62" y="52" width="5" height="112" rx="2.5" fill="#5eead4"/>
+  <text x="88" y="86" fill="#7dd3fc" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2.6">MOBILE DEVELOPMENT</text>
+  <text x="82" y="139" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="47" font-weight="700">Fatih Ateş</text>
+  <text x="82" y="176" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="23">React Native Developer</text>
+  <line x1="82" y1="204" x2="525" y2="204" stroke="url(#line)" stroke-width="2"/>
+  <text x="82" y="229" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="16">Cross-platform mobile applications · Flutter · Kotlin</text>
+  <rect x="808" y="39" width="318" height="182" rx="16" fill="#081426" fill-opacity=".62" stroke="#7dd3fc" stroke-opacity=".18"/>
+  <text x="838" y="73" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.8">CURRENT STACK</text>
+  <rect x="838" y="91" width="111" height="28" rx="14" fill="#0e7490" fill-opacity=".36" stroke="#38bdf8" stroke-opacity=".42"/>
+  <text x="893" y="110" fill="#bae6fd" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle">React Native</text>
+  <rect x="960" y="91" width="75" height="28" rx="14" fill="#0f766e" fill-opacity=".35" stroke="#5eead4" stroke-opacity=".42"/>
+  <text x="998" y="110" fill="#ccfbf1" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle">Flutter</text>
+  <rect x="1046" y="91" width="55" height="28" rx="14" fill="#1e3a8a" fill-opacity=".38" stroke="#93c5fd" stroke-opacity=".38"/>
+  <text x="1074" y="110" fill="#dbeafe" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle">Kotlin</text>
+  <path d="M849 162l25-25 25 25M916 137l-25 25 25 25" fill="none" stroke="#5eead4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M954 137l-16 50" stroke="#38bdf8" stroke-width="7" stroke-linecap="round"/>
+  <rect x="1000" y="142" width="72" height="8" rx="4" fill="#38bdf8" opacity=".75"/>
+  <rect x="1000" y="162" width="89" height="8" rx="4" fill="#cbd5e1" opacity=".25"/>
+  <rect x="1000" y="182" width="47" height="8" rx="4" fill="#cbd5e1" opacity=".18"/>
+  <rect x="1079" y="142" width="3" height="8" rx="1.5" fill="#5eead4">
+    <animate attributeName="opacity" values="1;1;.12;.12;1" dur="1.35s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="1110" cy="143" r="3" fill="#5eead4">
+    <animate attributeName="opacity" values=".2;1;.2" dur="2.4s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="1125" cy="220" r="150" fill="#5eead4" opacity=".08">
-    <animate attributeName="r" values="142;158;142" dur="6s" repeatCount="indefinite"/>
+  <circle cx="1110" cy="163" r="3" fill="#38bdf8">
+    <animate attributeName="opacity" values="1;.2;1" dur="2.4s" repeatCount="indefinite"/>
   </circle>
-  <path d="M82 184h210" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-dasharray="210" stroke-dashoffset="210">
-    <animate attributeName="stroke-dashoffset" values="210;0;0;210" dur="5s" repeatCount="indefinite"/>
-  </path>
-  <circle cx="315" cy="184" r="4" fill="#5eead4" filter="url(#glow)">
-    <animate attributeName="opacity" values="0;1;1;0" dur="5s" repeatCount="indefinite"/>
-  </circle>
-  <text x="82" y="104" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">Fatih Ateş</text>
-  <text x="82" y="151" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="24">React Native Developer  •  Mobile Application Developer</text>
-  <text x="82" y="218" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="18">Building practical cross-platform mobile experiences</text>
-  <g transform="translate(1040 150)">
-    <animateTransform attributeName="transform" type="translate" values="1040 150;1040 142;1040 150" dur="4s" repeatCount="indefinite"/>
-    <text x="0" y="0" fill="#5eead4" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" text-anchor="middle" filter="url(#glow)">&lt;/&gt;</text>
-  </g>
-  <g fill="#38bdf8">
-    <circle cx="915" cy="90" r="4"><animate attributeName="opacity" values=".15;1;.15" dur="2.2s" begin="0s" repeatCount="indefinite"/></circle>
-    <circle cx="950" cy="64" r="3"><animate attributeName="opacity" values=".15;1;.15" dur="2.2s" begin=".45s" repeatCount="indefinite"/></circle>
-    <circle cx="1160" cy="102" r="4"><animate attributeName="opacity" values=".15;1;.15" dur="2.2s" begin=".9s" repeatCount="indefinite"/></circle>
-  </g>
 </svg>
