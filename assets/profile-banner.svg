@@ -21,7 +21,7 @@
   <rect width="1200" height="260" rx="18" fill="url(#grid)"/>
   <circle cx="1030" cy="40" r="155" fill="#38bdf8" opacity=".055"/>
   <circle cx="1170" cy="250" r="175" fill="#5eead4" opacity=".07"/>
-  <rect x="62" y="52" width="5" height="112" rx="2.5" fill="#5eead4"/>
+  <rect x="62" y="39" width="5" height="182" rx="2.5" fill="#5eead4"/>
   <text x="88" y="86" fill="#7dd3fc" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2.6">MOBILE DEVELOPMENT</text>
   <text x="82" y="139" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="47" font-weight="700">Fatih Ateş</text>
   <text x="82" y="176" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="23">React Native Developer</text>
